@@ -4,6 +4,8 @@ project(map_generator)
 set(CMAKE_BUILD_TYPE "Release")
 set(CMAKE_CXX_FLAGS "-std=c++11")
 set(CMAKE_CXX_FLAGS_RELEASE "-O3 -Wall -g")
+ADD_COMPILE_OPTIONS(-std=c++14 )
+
 
 find_package(catkin REQUIRED COMPONENTS
   roscpp

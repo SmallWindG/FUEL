@@ -6,6 +6,8 @@ set(CMAKE_CXX_FLAGS "-std=c++11")
 # set(CMAKE_CXX_FLAGS_RELEASE "-O3 -Wall -g")
 set(CMAKE_CXX_FLAGS_RELEASE "-O3 -Wall")
 
+ADD_COMPILE_OPTIONS(-std=c++14 )
+
 find_package(Eigen3 REQUIRED)
 find_package(PCL 1.7 REQUIRED)
 
